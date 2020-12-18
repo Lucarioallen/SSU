@@ -1,0 +1,181 @@
+
+
+body {
+    background: #ffffff;
+    padding: 0px;
+}
+
+header {
+    margin-top:8px;
+    padding-top:8px;
+    width: 100%;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 9px .5px #23374d;
+    box-shadow: 0 0 9px .5px #23374d;
+}
+
+
+/*-------------------administracion------------------------------------- */
+
+div{
+    text-align: center;
+    background: #e1f4f3;
+    color: #333333;
+    padding: 2em;
+    -webkit-box-shadow: 0 0 9px .5px #23374d;
+    box-shadow: 0 0 9px .5px #23374d;
+
+}
+
+.aprobar{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    padding: 1em 2em;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    background-color: #fd3a69;
+    border-radius: 0px;
+    border: 2px solid #ffffff;
+    
+}
+    .aprobar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+    }
+
+.rechazar{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    padding: 1em 2em;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    background-color: #120078;
+    border-radius: 0px;
+    border: 2px solid #ffffff;
+    
+}
+    .rechazar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+    }
+
+
+/*--------------------- Tabla proyectos----------------------------------*/
+    table { 
+        width: 100%; 
+        border-collapse: collapse; 
+    }
+    /* Zebra striping */
+    tr:nth-of-type(odd) { 
+        background: #eee; 
+    }
+    th { 
+        background: #333; 
+        color: white; 
+        font-weight: bold; 
+    }
+    td, th { 
+        padding: 1em; 
+        border: 1px solid #ccc; 
+        text-align: left; 
+    }
+
+    .abrir{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    padding: 1em 2em;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    background-color: #e1f4f3;
+    border-radius: 0px;
+    border: 2px solid #ffffff;
+    }
+
+    .abrir:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+    }
+
+
+#logo {
+    display: block;
+    margin: auto;
+    max-width: 20%;
+    min-width: 200px;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.box{
+    background: #eeeeee;
+    text-align: center;
+    color: #23374d;
+    -webkit-box-shadow: 0 0 9px .5px #eeeeee;
+    box-shadow: 0 0 9px .5px #eeeeee;
+    padding: 1em;
+}
+
+
+
+.titulo{
+
+
+}
+
+
+
+#menu {
+    text-align: center;    
+    padding: 2px 0px;
+    margin: 10px 0px;
+    background: #e1f4f3;
+    -webkit-box-shadow: 0 0 9px .5px #23374d;
+    box-shadow: 0 0 9px .5px #23374d;
+}
+
+    #menu li {
+        list-style: none;
+        display: inline-block;
+        text-shadow: 0 0 1px #000000;
+        padding: 0 7px;
+    }
+        #menu a {
+            color: #23374d;
+            font: bold 25px Ginebra;
+            text-decoration: none;          
+        }
+            #menu a:hover {
+                padding: 0 3px;
+                color: #e1f4f3;
+                background: #333333;
+                -webkit-box-shadow: 0 0 4px 2px #FFFFFF;
+                box-shadow: 0 0 4px 2px #FFFFFF;
+                font-size: 3ex;
+                transition: 0.2s;
+            }
+
+
+@font-face {
+    font-family: "tomoon";
+    src: url(fuente/TalkingToTheMoon.ttf);
+}
+
+#frase{
+    font-family: tomoon;
+    text-align:center;
+}
+    #frase h1 {
+        font-size: 370%;
+        color: #454545;
+        text-shadow: 0 0 1px #000000;
+    }
